@@ -23,7 +23,7 @@ waitLEDRepeat(2);
 // VARIABLE: number of Edge tabs to open, set them once at the top of the script for easy adjustment
 
 var EDGE_TABS_TO_OPEN = 2;  
-
+var EDGE_TAB_URL = "https://www.youtube.com";
 
 // =========================
 // OPEN NOTEPAD FIRST — FAST STATEMENTS
@@ -103,10 +103,10 @@ press("GUI r");
 delay(400);
 type("msedge\n");
 delay(1500);
-
+  
 for (var t = 0; t < EDGE_TABS_TO_OPEN; t++) {
   press("CTRL t");
   delay(400);
-  type("about:blank\n");
-  delay(300);
+  type(EDGE_TAB_URL + "\n");
+  delay(800);
 }
