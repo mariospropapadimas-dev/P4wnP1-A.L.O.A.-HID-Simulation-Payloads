@@ -67,7 +67,8 @@ No real access, control, or data interaction is performed.
 P4wnP1-a.l.o.a-HID-Simulation-Payloads/
 ├── HID_Scripts/
 │   └── annoying_hacked_troll.js
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 ---
