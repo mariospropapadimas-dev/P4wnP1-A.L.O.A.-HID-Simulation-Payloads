@@ -65,7 +65,8 @@ No real access, control, or data interaction is performed.
 
 ```id="u82kda"
 P4wnP1-a.l.o.a-HID-Simulation-Payloads/
-├── annoying_hacked_troll.js
+├── HID_Scripts/
+│   └── annoying_hacked_troll.js
 └── README.md
 ```
 
