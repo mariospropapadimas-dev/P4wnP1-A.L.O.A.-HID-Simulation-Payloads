@@ -51,8 +51,8 @@ Compatibility with other devices is not guaranteed.
 
 ### `annoying_hacked_troll.js`
 
-A simple scripted scenario that creates the illusion of a system being compromised through visual output and UI automation.
-
+A scripted scenario that creates the illusion of a system being compromised through visual output and UI automation.
+Includes configurable browser support (Edge, Chrome, Firefox) with customizable tab URLs for flexible simulation scenarios.
 * Fake intrusion alerts
 * Log-style output
 * Basic application triggering
