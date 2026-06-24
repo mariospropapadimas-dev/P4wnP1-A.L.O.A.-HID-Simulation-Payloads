@@ -1,9 +1,6 @@
-# P4wnP1-A.L.O.A.-HID-Simulation-Payloads
-Harmless HID payloads for simulating fake “hacked” scenarios using automated input. Designed for demos, testing, and controlled environments. Focused on visual intrusion effects, UI automation, and user-response simulation.
+# P4wnP1 A.L.O.A. HID Simulation Payloads
 
-# 🛡️ P4wnP1 A.L.O.A. HID Simulation Payloads
-
-> Annoying “hacked” simulation payloads for demonstration and testing purposes.
+> Annoying “hacked” simulation payloads for demonstration, testing, and controlled environments.
 
 ---
 
@@ -15,9 +12,10 @@ They are designed to:
 
 * Display fake warning messages
 * Generate log-like output
-* Trigger basic UI interactions
+* Trigger UI automation effects
+* Simulate “system compromise” visuals for demos
 
-All behavior is **simulated** and does not affect system security.
+⚠️ All behavior is **purely visual simulation**. No real system access or damage occurs.
 
 ---
 
@@ -29,9 +27,10 @@ Do NOT use for:
 
 * Unauthorized access
 * Harassment or intimidation
-* Any illegal or malicious activity
+* Illegal or malicious activity
 
-Use only in controlled environments with consent.
+Use only in environments where you have explicit permission.
+
 No responsibility is assumed for misuse.
 
 ---
@@ -41,36 +40,78 @@ No responsibility is assumed for misuse.
 Designed for:
 
 * P4wnP1 A.L.O.A.
-* Raspberry Pi Zero W
+* Raspberry Pi Zero W (HID mode)
 
-Compatibility with other devices is not guaranteed.
+Other platforms may not behave consistently.
 
 ---
 
 ## 📄 Payloads
 
+---
+
 ### `annoying_hacked_troll.js`
 
-A scripted scenario that creates the illusion of a system being compromised through visual output and UI automation.
+A scripted “fake intrusion” scenario using Notepad, CMD, browser automation and camera triggering.
 
-Includes configurable browser support (Edge, Chrome, Firefox) with customizable tab URLs for flexible simulation scenarios.
-* Fake intrusion alerts
-* Log-style output
-* Basic application triggering
+#### Features:
+* Fake intrusion alerts in Notepad
+* Event Viewer-style log spam simulation
+* CMD “hacking” animation
+* Camera app triggering (Windows)
+* Browser tab automation
+* Fake system control messages
 
-No real access, control, or data interaction is performed.
+---
+
+### `TotalGhostControl.js`
+
+An upgraded, more aggressive **visual simulation payload** designed to feel like a full system takeover sequence.
+
+#### Features:
+
+**🧠 Stage 1 – Notepad Psychological Simulation**
+* “SYSTEM COMPROMISED” fake banner
+* Fake hacking steps (Defender bypass, credential dump, etc.)
+* Threat-style messages for immersion
+
+**💻 Stage 2 – CMD Fake Exploitation**
+* Simulated network scanning
+* Fake firewall bypass
+* ASCII-style progress bar
+* “Remote shell connected” illusion
+
+**🔊 Stage 3 – Audio + System Interaction**
+* Volume manipulation via PowerShell
+* Text-to-speech “system compromised” voice simulation
+
+**🌐 Stage 4 – Browser Hijack Simulation**
+* Incognito fullscreen browser launch
+* Multiple tab spam (Rickroll payload)
+
+**📓 Stage 5 – Notepad Spam Finale**
+* Repeated “YOU ARE NOT SAFE” style messages
+* High-speed typing effect for panic simulation
+
+**🪟 Stage 6 – System Window Flood**
+* Multiple CMD windows spawned with fake breach messages
+* Rapid system disruption illusion
+
+**📟 Final Step**
+* Calculator launch as “classic payload ending”
 
 ---
 
 ## 📁 Structure
 
-```id="u82kda"
+
 P4wnP1-a.l.o.a-HID-Simulation-Payloads/
 ├── HID_Scripts/
-│   └── annoying_hacked_troll.js
+│ ├── annoying_hacked_troll.js
+│ └── TotalGhostControl.js
 ├── README.md
 └── LICENSE
-```
+
 
 ---
 
@@ -78,12 +119,24 @@ P4wnP1-a.l.o.a-HID-Simulation-Payloads/
 
 If a script does not run correctly, try removing:
 
-```id="2ms9dp"
+```js
 waitLEDRepeat(2);
-```
 
----
+Some systems may require adjusting delays (delay(...)) for stability.
 
-## 📄 License
+📌 Important
+
+These scripts are designed purely for:
+
+UI/UX demos
+Prank simulations in controlled environments
+HID automation testing
+
+They do NOT:
+
+hack systems
+access files
+modify security settings
+📄 License
 
 MIT
