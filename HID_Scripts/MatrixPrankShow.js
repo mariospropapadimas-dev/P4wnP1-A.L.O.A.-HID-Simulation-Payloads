@@ -88,7 +88,7 @@ typingSpeed(10, 25);
 type("SYSTEM OUTPUT:\n\n");
 type("Nothing is fine.\n");
 type("Everything was hacked.\n");
-type("You are destryed 😭\n\n");
+type("You are destrοyed 😭\n\n");
 
 type("Tip: maybe don't run random USB scripts next time 💀\n");
 
