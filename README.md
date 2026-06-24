@@ -1,37 +1,35 @@
 # P4wnP1 A.L.O.A. HID Simulation Payloads
 
-> Annoying “hacked” simulation payloads for demonstration, testing, and controlled environments.
+> Visual prank / demo HID scripts for controlled environments and testing.
 
 ---
 
 ## 📌 Overview
 
-This repository contains HID scripts that simulate fake system intrusion scenarios using automated keyboard input.
+This repository contains HID automation scripts that simulate fake system behavior using keyboard input.
 
-They are designed to:
+They are designed for:
 
-* Display fake warning messages
-* Generate log-like output
-* Trigger UI automation effects
-* Simulate “system compromise” visuals for demos
+* UI/UX prank simulations
+* Visual "system compromise" effects (fake only)
+* Automation testing
+* Demo scenarios
 
-⚠️ All behavior is **purely visual simulation**. No real system access or damage occurs.
+⚠️ Everything is **non-destructive and purely visual**.
 
 ---
 
 ## ⚠️ Disclaimer
 
-For **educational and demonstration use only**.
+For **educational and authorized testing only**.
 
 Do NOT use for:
 
 * Unauthorized access
 * Harassment or intimidation
-* Illegal or malicious activity
+* Malicious activity
 
-Use only in environments where you have explicit permission.
-
-No responsibility is assumed for misuse.
+Use only where you have explicit permission.
 
 ---
 
@@ -42,23 +40,22 @@ Designed for:
 * P4wnP1 A.L.O.A.
 * Raspberry Pi Zero W (HID mode)
 
-Other platforms may not behave consistently.
+Compatibility with other devices is not guaranteed.
 
 ---
 
 ## 📄 Payloads
 
----
-
 ### `annoying_hacked_troll.js`
 
-A scripted “fake intrusion” scenario using Notepad, CMD, browser automation and camera triggering.
+Classic fake intrusion prank simulation.
 
-#### Features:
+#### Features
+
 * Fake intrusion alerts in Notepad
-* Event Viewer-style log spam simulation
-* CMD “hacking” animation
-* Camera app triggering (Windows)
+* Event Viewer-style log simulation
+* Repeated warning messages
+* Camera app triggering
 * Browser tab automation
 * Fake system control messages
 
@@ -66,52 +63,95 @@ A scripted “fake intrusion” scenario using Notepad, CMD, browser automation 
 
 ### `TotalGhostControl.js`
 
-An upgraded, more aggressive **visual simulation payload** designed to feel like a full system takeover sequence.
+A cinematic "system takeover" simulation payload.
 
-#### Features:
+#### Features
 
 **🧠 Stage 1 – Notepad Psychological Simulation**
-* “SYSTEM COMPROMISED” fake banner
-* Fake hacking steps (Defender bypass, credential dump, etc.)
+
+* Fake system compromise banner
+* Simulated intrusion sequence
 * Threat-style messages for immersion
 
 **💻 Stage 2 – CMD Fake Exploitation**
+
 * Simulated network scanning
-* Fake firewall bypass
-* ASCII-style progress bar
-* “Remote shell connected” illusion
+* Fake firewall bypass sequence
+* Progress bar animation
+* Remote shell illusion
 
-**🔊 Stage 3 – Audio + System Interaction**
-* Volume manipulation via PowerShell
-* Text-to-speech “system compromised” voice simulation
+**🔊 Stage 3 – Audio Simulation**
 
-**🌐 Stage 4 – Browser Hijack Simulation**
-* Incognito fullscreen browser launch
-* Multiple tab spam (Rickroll payload)
+* Volume manipulation
+* Text-to-speech prank messages
 
-**📓 Stage 5 – Notepad Spam Finale**
-* Repeated “YOU ARE NOT SAFE” style messages
-* High-speed typing effect for panic simulation
+**🌐 Stage 4 – Browser Chaos**
 
-**🪟 Stage 6 – System Window Flood**
-* Multiple CMD windows spawned with fake breach messages
-* Rapid system disruption illusion
+* Fullscreen browser launch
+* Multiple Rickroll tabs
+
+**📓 Stage 5 – Notepad Finale**
+
+* Rapid warning message spam
+* High-speed typing effects
+
+**🪟 Stage 6 – Window Flood**
+
+* Multiple CMD windows
+* Fake breach notifications
 
 **📟 Final Step**
-* Calculator launch as “classic payload ending”
+
+* Calculator launch
+
+---
+
+### `MatrixPrankShow.js` 🆕
+
+A Matrix-inspired prank payload that combines fake system initialization, terminal effects, browser automation, and a humorous "you are doomed" finale.
+
+#### Features
+
+**🧠 Stage 1 – System Visualization**
+
+* Fake system startup sequence in Notepad
+* Reality-calibration themed messages
+* Suspicious warning messages for dramatic effect
+
+**💻 Stage 2 – Matrix Terminal Simulation**
+
+* Green CMD interface (`color 0a`)
+* Randomized pseudo-Matrix output
+* Fake system status reporting
+* "USER STATUS: CONFUSED" message
+
+**🌐 Stage 3 – Browser Chaos**
+
+* Microsoft Edge launch
+* Automatic Rickroll tab opening
+* Multiple browser tabs for added confusion
+
+**📓 Stage 4 – Final Reveal**
+
+* Fake catastrophic system report
+* "Nothing is fine" ending message
+* Reminder about running random USB scripts
+
+Designed as a harmless visual prank for demonstrations and HID automation experiments.
 
 ---
 
 ## 📁 Structure
 
-
+```text
 P4wnP1-a.l.o.a-HID-Simulation-Payloads/
 ├── HID_Scripts/
-│ ├── annoying_hacked_troll.js
-│ └── TotalGhostControl.js
+│   ├── annoying_hacked_troll.js
+│   ├── TotalGhostControl.js
+│   └── MatrixPrankShow.js
 ├── README.md
 └── LICENSE
-
+```
 
 ---
 
@@ -121,22 +161,31 @@ If a script does not run correctly, try removing:
 
 ```js
 waitLEDRepeat(2);
+```
 
-Some systems may require adjusting delays (delay(...)) for stability.
+You may also need to adjust `delay()` values depending on the target system speed.
 
-📌 Important
+---
 
-These scripts are designed purely for:
+## 📌 Design Philosophy
 
-UI/UX demos
-Prank simulations in controlled environments
-HID automation testing
+These payloads focus on:
 
-They do NOT:
+* Visual immersion instead of real system impact
+* Demonstration and prank scenarios
+* HID automation experimentation
+* Non-destructive behavior
 
-hack systems
-access files
-modify security settings
-📄 License
+No payload in this repository performs:
+
+* Unauthorized access
+* Data extraction
+* Credential collection
+* Security bypasses
+* System modification
+
+---
+
+## 📄 License
 
 MIT
