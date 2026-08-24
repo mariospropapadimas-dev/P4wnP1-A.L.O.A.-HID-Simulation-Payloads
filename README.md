@@ -141,7 +141,7 @@ Designed as a harmless visual prank for demonstrations and HID automation experi
 
 ---
 
-### `FakeUpdateNightmare.js` 🆕
+### `FakeUpdateNightmare.js`
 
 A classic "stuck at 99%" Windows Update prank, combining a fake install sequence, an eternal progress loop, and a lighthearted reveal.
 
@@ -176,6 +176,36 @@ Designed as a lighter-toned, non-"hacker" visual prank for demonstrations and HI
 
 ---
 
+### `MagicEightBallOracle.js` 🆕
+
+A quirky, wholesome Notepad prank where Windows becomes a mystical AI Oracle — it poses a philosophical question to itself and dramatically delivers a randomized, fortune-cookie-style answer. No "hacked" framing at all.
+
+#### Features
+
+**🔮 Stage 1 – The Oracle Awakens**
+
+* Mystical Notepad banner
+* "Consulting the digital spirits..." loading effect
+
+**❓ Stage 2 – The Question**
+
+* A randomly chosen philosophical (and silly) question
+* Dramatic "meditating..." pause effect
+
+**✨ Stage 3 – The Answer**
+
+* A randomly chosen fortune-cookie-style answer
+* Different question/answer pairing on every run
+
+**🌸 Stage 4 – Wholesome Sign-off**
+
+* Lighthearted closing message
+* Playful (harmless) tip about USB ports
+
+Designed as a quirky, wholesome visual prank — no spooky or "hacker" theming — for demonstrations and HID automation experiments.
+
+---
+
 ## 📁 Structure
 
 ```text
@@ -184,7 +214,8 @@ P4wnP1-a.l.o.a-HID-Simulation-Payloads/
 │   ├── annoying_hacked_troll.js
 │   ├── TotalGhostControl.js
 │   ├── MatrixPrankShow.js
-│   └── FakeUpdateNightmare.js
+│   ├── FakeUpdateNightmare.js
+│   └── MagicEightBallOracle.js
 ├── README.md
 └── LICENSE
 ```
