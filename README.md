@@ -106,7 +106,7 @@ A cinematic "system takeover" simulation payload.
 
 ---
 
-### `MatrixPrankShow.js` 🆕
+### `MatrixPrankShow.js`
 
 A Matrix-inspired prank payload that combines fake system initialization, terminal effects, browser automation, and a humorous "you are doomed" finale.
 
@@ -141,6 +141,41 @@ Designed as a harmless visual prank for demonstrations and HID automation experi
 
 ---
 
+### `FakeUpdateNightmare.js` 🆕
+
+A classic "stuck at 99%" Windows Update prank, combining a fake install sequence, an eternal progress loop, and a lighthearted reveal.
+
+#### Features
+
+**🧠 Stage 1 – Fake Update Launch**
+
+* Blue "Windows Update" style CMD interface (`color 1f`)
+* "Do not turn off your PC" style warning
+
+**⏳ Stage 2 – The 99% Loop**
+
+* Climbing install percentages
+* Progress dramatically stalls at 99% on repeat
+
+**😱 Stage 3 – Panic Escalation**
+
+* Increasingly absurd status messages
+* "This may take several years" style humor
+
+**🌐 Stage 4 – Browser "Download" Gag**
+
+* Microsoft Edge launch
+* Rickroll tab(s) opened as a fake "update component"
+
+**📓 Stage 5 – The Reveal**
+
+* Notepad reveal that it was all a joke
+* Reminder about running random USB scripts
+
+Designed as a lighter-toned, non-"hacker" visual prank for demonstrations and HID automation experiments.
+
+---
+
 ## 📁 Structure
 
 ```text
@@ -148,7 +183,8 @@ P4wnP1-a.l.o.a-HID-Simulation-Payloads/
 ├── HID_Scripts/
 │   ├── annoying_hacked_troll.js
 │   ├── TotalGhostControl.js
-│   └── MatrixPrankShow.js
+│   ├── MatrixPrankShow.js
+│   └── FakeUpdateNightmare.js
 ├── README.md
 └── LICENSE
 ```
