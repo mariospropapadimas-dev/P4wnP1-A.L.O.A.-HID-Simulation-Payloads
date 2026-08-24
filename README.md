@@ -176,7 +176,7 @@ Designed as a lighter-toned, non-"hacker" visual prank for demonstrations and HI
 
 ---
 
-### `MagicEightBallOracle.js` 🆕
+### `MagicEightBallOracle.js`
 
 A quirky, wholesome Notepad prank where Windows becomes a mystical AI Oracle — it poses a philosophical question to itself and dramatically delivers a randomized, fortune-cookie-style answer. No "hacked" framing at all.
 
@@ -206,6 +206,36 @@ Designed as a quirky, wholesome visual prank — no spooky or "hacker" theming �
 
 ---
 
+### `FakeAntivirusMeltdown.js` 🆕
+
+A fake antivirus "quick scan" that panics over a growing list of joke viruses with silly names, then admits it was all a gag.
+
+#### Features
+
+**🛡️ Stage 1 – Scan Launch**
+
+* Red "Defender Plus Ultra" style CMD interface (`color 0c`)
+* Fake scan-engine initialization sequence
+
+**🐛 Stage 2 – The Growing Threat List**
+
+* A steadily growing list of joke "threats" (e.g. `Trojan.CoffeeAddict`, `Virus.Socks.Missing`)
+* Deliberately silly, non-scary virus names
+
+**😅 Stage 3 – Panic Escalation**
+
+* Increasingly ridiculous warning messages
+* Fake "quarantining" animation
+
+**✅ Stage 4 – The Reveal**
+
+* Fake scan-complete summary
+* "All clear (just kidding, you're fine)" punchline
+
+Designed as a harmless, silly visual prank — no real scanning or system interaction — for demonstrations and HID automation experiments.
+
+---
+
 ## 📁 Structure
 
 ```text
@@ -215,7 +245,8 @@ P4wnP1-a.l.o.a-HID-Simulation-Payloads/
 │   ├── TotalGhostControl.js
 │   ├── MatrixPrankShow.js
 │   ├── FakeUpdateNightmare.js
-│   └── MagicEightBallOracle.js
+│   ├── MagicEightBallOracle.js
+│   └── FakeAntivirusMeltdown.js
 ├── README.md
 └── LICENSE
 ```
